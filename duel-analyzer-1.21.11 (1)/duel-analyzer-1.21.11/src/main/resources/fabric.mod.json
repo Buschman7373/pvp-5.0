@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "duelanalyzer",
+  "version": "${version}",
+  "name": "Duel Analyzer",
+  "description": "Records your PvP duels silently and shows a post-fight analysis with stats, key moments and tips.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.duelanalyzer.DuelAnalyzerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
